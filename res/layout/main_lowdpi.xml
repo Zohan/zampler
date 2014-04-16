@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/relativeLayout1">
+    	<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView1" android:layout_alignParentTop="true"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView2" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/imageView1"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView3" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/imageView2"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView4" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/imageView3"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView5" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView6" android:layout_alignTop="@+id/imageView5" android:layout_alignLeft="@+id/imageView2"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView7" android:layout_alignTop="@+id/imageView6" android:layout_alignLeft="@+id/imageView3"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView8" android:layout_alignTop="@+id/imageView7" android:layout_toRightOf="@+id/imageView7"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView9" android:layout_below="@+id/imageView5" android:layout_alignParentLeft="true"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView10" android:layout_below="@+id/imageView6" android:layout_alignLeft="@+id/imageView6"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView11" android:layout_alignTop="@+id/imageView10" android:layout_alignLeft="@+id/imageView7"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView12" android:layout_alignTop="@+id/imageView11" android:layout_alignLeft="@+id/imageView8"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView13" android:layout_below="@+id/imageView9" android:layout_alignParentLeft="true"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView14" android:layout_alignTop="@+id/imageView13" android:layout_alignLeft="@+id/imageView10"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView15" android:layout_below="@+id/imageView11" android:layout_alignLeft="@+id/imageView11"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/androidbuttonsm" android:id="@+id/imageView16" android:layout_alignTop="@+id/imageView15" android:layout_toRightOf="@+id/imageView15"></ImageView>
+        <RadioGroup android:layout_width="wrap_content" android:id="@+id/radioGroup1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <RadioButton android:checked="true" android:text="@string/play" android:id="@+id/radio0" android:layout_height="wrap_content" android:layout_width="wrap_content"></RadioButton>
+            <RadioButton android:text="@string/loop" android:id="@+id/radio1" android:layout_height="wrap_content" android:layout_width="wrap_content"></RadioButton>
+            <RadioButton android:text="@string/record" android:id="@+id/radio2" android:layout_height="wrap_content" android:layout_width="wrap_content"></RadioButton>
+            <RadioButton android:text="@string/load" android:id="@+id/radioButton1" android:layout_height="wrap_content" android:layout_width="wrap_content"></RadioButton>
+        </RadioGroup>
+        <Button android:layout_width="wrap_content" android:text="Save Sample Set" android:layout_height="wrap_content" android:id="@+id/button18" android:layout_below="@+id/button17" android:layout_alignRight="@+id/button17"></Button>
+        <Button android:layout_width="wrap_content" android:text="Load Sample Set" android:layout_height="wrap_content" android:id="@+id/button17" android:layout_below="@+id/radioGroup1" android:layout_alignLeft="@+id/radioGroup1"></Button>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Zohan" android:id="@+id/textView1" android:layout_below="@+id/button18" android:layout_alignLeft="@+id/button17" android:layout_above="@+id/imageView16" android:layout_alignRight="@+id/button18"></TextView>
+    </RelativeLayout>
+    
+</LinearLayout>

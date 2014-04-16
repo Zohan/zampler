@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SamplerActivity!</string>
+    <string name="app_name">Sampler</string>
+    <string name="play">Play</string>
+    <string name="record">Record</string>
+    <string name="loop">Loop</string>
+    <string name="load">Load Samples</string>
+    <string name="samplertitle">Zohan ZAMP101</string>
+    <string name="zampler">Zampler</string>
+    <string name="zo">zo</string>
+    <string name="h">h</string>
+    <string name="an">an</string>
+</resources>
